@@ -1,3 +1,6 @@
+// The function is a form that recover the data acordind the question/answers. 
+//I understand that the form get the answer and save it in a variable for PHP.
+
 <?php
 add_filter('gform_register_init_scripts', 'gform_display_weeks', 10, 2);
 function gform_display_weeks($form) {
@@ -337,6 +340,18 @@ function bones_register_sidebars() {
     'before_title' => '<h2 class="h3 module__title">',
     'after_title' => '</h2>',
   ));
+  //adding the sidebar for advertising
+  register_sidebar(
+    array(
+    'id' => 'adversiting_sidebar',
+    'name' => __('adversiting_Sidebar', 'bonestheme'),
+    'description' => __('adversiting_Sidebar', 'bonestheme'),,
+    'before_widget' => '<div class="module_primary">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3 class ="module_title">',
+    'after_title' => '</h3>'
+    )
+ );
   
 } // don't remove this bracket!
 /* DON'T DELETE THIS CLOSING TAG */ 
