@@ -36,6 +36,8 @@ Template Name: Testimonials Page
 				<article role="article">
 					<section class="entry-content" itemprop="articleBody">
 						<?php
+						// We have a Query in WP that contains the testimonial to show us when we click or we want to read.
+						// the post_per_page, just say to WP, how much post have to show.
 							$testimonials_args = array (
 								'post_type' => 'testimonials',
 								'posts_per_page' => -1,
