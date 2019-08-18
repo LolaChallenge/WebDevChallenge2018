@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+*{
+    box-sizing:border-box;
+    font-family: 'Sawarabi Gothic';
+}
+#featured_products{
+    background-image: url('../home_banner.jpg');
+    margin-top: 2%;
+    width: -webkit-fill-available;
+    height: 68vh;
+    background-repeat: no-repeat;
+}
+.logo{
+        background-image: url(../logo.png);
+        width: 31%;
+        background-size: contain;
+        height: 24vh;
+        background-repeat: no-repeat;
+        margin-top: -63%;
+        margin-left: 36%;
+    
+}
+#header{
+    width: -webkit-fill-available;
+    height: 100vh;
+    background-image: url(../home_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: initial;
+}
+#description_header{
+        color: white;
+        width: 66%;
+        float: right;
+        margin-top: 9%;
+    }
+
+nav {
+    ul{
+        padding: 7%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    a{
+        color: white;
+    }
+
+}
