@@ -92,4 +92,32 @@ h2, h3 {
   background-size: cover;
   margin-top: 4%; }
 
+#one {
+  width: 62%;
+  height: 48vh; }
+
+.article_c {
+  background-image: url("../fashion-week.jpg"); }
+
+.article_container {
+  background-image: url("../black-women-in-music.png"); }
+
+.article_container_one {
+  background-image: url("../smash-patriarchy.jpg"); }
+
+footer {
+  background-image: url("../footer.jpg");
+  margin-top: 37%;
+  color: white; }
+
+.terms {
+  display: inline-block;
+  color: white; }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
 /*# sourceMappingURL=styles.css.map */
