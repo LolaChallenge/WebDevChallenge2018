@@ -164,6 +164,9 @@ a {
 
 @media (min-width: 430px) {
   #mobile {
+    display: none; }
+
+  .mobile_footer {
     display: none; } }
 @media (max-width: 430px) {
   .hide {
@@ -187,6 +190,65 @@ a {
     width: 20%;
     display: flex;
     margin: 4%;
-    margin-left: 39%; } }
+    margin-left: 39%; }
+
+  #lettering {
+    background-color: #f2792d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center; }
+
+  .tshirt_container {
+    width: -webkit-fill-available; }
+
+  item {
+    margin-left: 19%;
+    margin-top: 14%; }
+
+  .about {
+    width: -webkit-fill-available;
+    height: 17vh;
+    margin-top: 14%;
+    background-color: #f2792d;
+    color: white; }
+
+  .section_name {
+    margin-left: 5%;
+    font-size: 1.5rem;
+    margin-top: 3%; }
+
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    margin-top: -4%;
+    margin-left: 8%; }
+
+  .products {
+    width: -webkit-fill-available;
+    height: 20vh;
+    margin-top: 3%;
+    background-color: deepskyblue;
+    color: white; }
+
+  .news {
+    width: -webkit-fill-available;
+    height: 20vh;
+    margin-top: 3%;
+    background-color: #4fabca;
+    color: white; }
+
+  .content_products {
+    height: 40vh;
+    display: inline-block;
+    background-color: white;
+    margin-top: 6%; }
+
+  footer {
+    margin-top: -190%;
+    color: white;
+    background-color: #f2792d;
+    height: 28vh; } }
 
 /*# sourceMappingURL=styles.css.map */
