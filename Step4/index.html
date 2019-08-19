@@ -13,10 +13,50 @@
 </head>
 
 <body>
+      <!-- HEADER MOBILE-->
+    <main> 
+        <div id='info_mobile'>
+                <hi id ='title_page'>FEMPOWERMENT</hi>
+                <img src='./logo.png'></img>
+                <p id='lettering'>A marketplace to support women worlwide</p>
+        </div>
+        <div>
+                <div id="carouselExampleControls" class="carousel slide content_products" data-ride="carousel">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item_sticker active ">
+                                <div class='item'>
+                                        <h2>It's your Choice Sticker</h2>
+                                        <button type="button" class="btn btn-outline-dark">BUY NOW</button>
+                                    </div>
+                            </div>
+                            <div class="carousel-item tshirt_container ">
+                                    <div class='item'>
+                                            <h2>Be Your Own Hero t-shirt</h2>
+                                            <button type="button" class="btn btn-outline-dark">BUY NOW</button>
+                                        </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+        </div>
+
+
+    </main> 
+
+
+
     <!-- HEADER-->
-    <section id='header'>
-        <nav>
-            <ul class="nav">
+
+    <section id='header hide'>
+        <nav class="hide">
+            <ul class="nav hide">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">HOME</a>
                 </li>
@@ -31,25 +71,25 @@
                 </li>
             </ul>
         </nav>
-        <article id='description_header'>
-            <div>
+        <article id='description_header ' class="hide">
+            <div class="hide">
                 <h1>A marketplace to support women worlwide</h1>
             </div>
-            <figure class="logo">
+            <figure class="logo hide">
             </figure>
         </article>
     </section>
     <!-- FEATURED PRODUCTS-->
-    <section id='featured_products'>
+    <section id='featured_products hide'>
         <div id="carouselExampleControls" class="carousel slide content_products" data-ride="carousel">
             <div class="carousel-inner ">
-                <div class="carousel-item_sticker active">
+                <div class="carousel-item_sticker active hide">
                     <div class='item'>
                             <h2>It's your Choice Sticker</h2>
                             <button type="button" class="btn btn-outline-dark">BUY NOW</button>
                         </div>
                 </div>
-                <div class="carousel-item tshirt_container">
+                <div class="carousel-item tshirt_container hide">
                         <div class='item'>
                                 <h2>Be Your Own Hero t-shirt</h2>
                                 <button type="button" class="btn btn-outline-dark">BUY NOW</button>
@@ -66,22 +106,22 @@
             </a>
         </div>
     </section>
-    <section id='fempowerment_container'>
-            <div id='fempowerment_description'>
-                    <h2>FEMPOWERMENT</h2>
-                    <p>Its a nonprofit rooted in the belief that is strength in solidarity. With the support of advocates
+    <section id='fempowerment_container' class="hide">
+            <div id='fempowerment_description' class="hide">
+                    <h2 class="hide">FEMPOWERMENT</h2>
+                    <p class="hide">Its a nonprofit rooted in the belief that is strength in solidarity. With the support of advocates
                         such as yourself, we are  able to bring much needed funding towards women's initiatives around the world.
                     </p>
 
-                    <p><strong>Join our effort in making a positive impact</strong></p>
-                    <h3>FOR WOMEN WORLDWIDE.</h3>
+                    <p class="hide"><strong>Join our effort in making a positive impact</strong></p>
+                    <h3 class="hide">FOR WOMEN WORLDWIDE.</h3>
 
-                    <p><a href="#">LEAR MORE ABOUT US ></a></p>
+                    <p class="hide"><a href="#">LEAR MORE ABOUT US ></a></p>
                 </div>
-                <div id='img_container'>
+                <div id='img_container' class="hide">
                 </div>
     </section>
-    <section id='featured_articles'>
+    <section id='featured_articles ' class="hide">
             <div id="carouselExampleControls" class="carousel slide content_products" data-ride="carousel">
                     <div class="carousel-inner ">
                         <div class="one carousel-item article_c active ">
@@ -116,10 +156,13 @@
     </section>
     <footer>
             <div class="foo_info">
-                    <p>Say hello</p><span>hello@fempowerment.org</span>
-                    <p class="terms"><a href="#">Privacy</a></p> 
-                    <p class="terms"><a href="#">Cancellation</a></p> 
-                     <p class="terms"><a href="#">Terms and conditions</a></p> 
+                <div id='foo_mail'> <p>Say hello</p>   <span>hello@fempowerment.org</span></div>
+  <div id='foo_terms'>
+        <p class="terms"><a href="#">Privacy</a></p> 
+        <p class="terms"><a href="#">Cancellation</a></p> 
+         <p class="terms"><a href="#">Terms and conditions</a></p> 
+  </div>
+
     </footer>
 
 

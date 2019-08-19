@@ -7,38 +7,51 @@
   background-image: url("../home_banner.jpg");
   margin-top: 2%;
   width: -webkit-fill-available;
-  height: 53vh;
+  height: 52vh;
+  background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
-  background-size: contain; }
+  position: absolute; }
 
 .tshirt_container {
   background-image: url("../beYourOwnThumb.jpeg");
-  width: 42%;
-  height: 27vh;
+  width: 27%;
+  height: 45vh;
+  margin: 3%;
+  margin-left: 9%;
   background-size: contain;
-  display: inline-block;
-  float: right;
   background-repeat: no-repeat;
-  margin-top: -25%; }
+  display: inline-block; }
 
 .item {
-  margin-left: 50%; }
+  margin-left: 58%;
+  margin-top: 19%; }
 
 .carousel-item_sticker {
   background-image: url("../itsYourChoiceThumb.png");
-  width: 50%;
-  height: 31vh;
-  margin: 2%;
+  width: 43%;
+  height: 27vh;
+  margin: 3%;
   margin-left: 8%;
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block; }
 
 .content_products {
-  height: 34vh;
+  height: 40vh;
   background-color: white;
-  margin-top: 5%; }
+  margin-top: 6%; }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 41vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+h1 {
+  font-size: 3.5rem; }
 
 .logo {
   background-image: url(../logo.png);
@@ -46,8 +59,8 @@
   background-size: contain;
   height: 24vh;
   background-repeat: no-repeat;
-  margin-top: -56%;
-  margin-left: 48%; }
+  margin-top: -58%;
+  margin-left: 36%; }
 
 #header {
   width: -webkit-fill-available;
@@ -59,14 +72,15 @@
 
 #description_header {
   color: white;
-  width: 66%;
-  float: right;
+  width: 68%;
+  /* float: right; */
+  margin-left: 17%;
   margin-top: 9%; }
 
 nav ul {
   padding: 7%;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: center; }
 nav a {
   color: white; }
 
@@ -74,41 +88,59 @@ h2, h3 {
   color: #f2792d; }
 
 #fempowerment_container {
-  margin-top: 37%;
+  margin-top: 49%;
   width: -webkit-fill-available;
-  height: 66vh; }
+  height: 60vh;
+  display: flex;
+  flex-direction: row; }
 
 #fempowerment_description {
-  width: 64%;
+  width: 41%;
   margin: 7%;
   margin-top: 5%;
   display: inline-block; }
 
 #img_container {
   background-image: url("../girl_intro.jpg");
-  width: 21%;
+  width: 44%;
   display: inline-block;
-  height: 50vh;
+  height: 52vh;
   background-size: cover;
-  margin-top: 4%; }
+  margin-top: 1%; }
 
 #one {
   width: 62%;
   height: 48vh; }
 
 .article_c {
-  background-image: url("../fashion-week.jpg"); }
+  background-image: url("../fashion-week.jpg");
+  height: 52vh;
+  display: inline-block;
+  background-size: auto;
+  width: 80%;
+  margin-top: -9%; }
 
 .article_container {
+  height: 52vh;
+  display: inline-block;
+  background-size: auto;
+  width: 80%;
+  margin-top: -9%;
   background-image: url("../black-women-in-music.png"); }
 
 .article_container_one {
+  height: 52vh;
+  display: inline-block;
+  background-size: auto;
+  width: 80%;
+  margin-top: -9%;
   background-image: url("../smash-patriarchy.jpg"); }
 
 footer {
   background-image: url("../footer.jpg");
-  margin-top: 37%;
-  color: white; }
+  margin-top: 43%;
+  color: white;
+  height: 20vh; }
 
 .terms {
   display: inline-block;
@@ -119,5 +151,42 @@ a {
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
+
+#foo_mail {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 27%; }
+
+#foo_terms {
+  display: flex;
+  justify-content: center; }
+
+@media (min-width: 430px) {
+  #mobile {
+    display: none; } }
+@media (max-width: 430px) {
+  .hide {
+    display: none; }
+
+  #img_container {
+    display: none; }
+
+  #title_page {
+    color: #f2792d;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%; }
+
+  #info_mobile {
+    width: -webkit-fill-available;
+    height: 33vh; }
+
+  img {
+    width: 20%;
+    display: flex;
+    margin: 4%;
+    margin-left: 39%; } }
 
 /*# sourceMappingURL=styles.css.map */
